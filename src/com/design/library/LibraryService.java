@@ -2,13 +2,13 @@ package com.design.library;
 
 import java.time.LocalDate;
 
-public class LibrayService {
+public class LibraryService {
 
     private final Library library;
     private final SearchBookStrategy searchBookStrategy;
     private final int MIN_DUE_DAYS;
 
-    public LibrayService(Library library, SearchBookStrategy searchBookStrategy, int MIN_DUE_DAYS) {
+    public LibraryService(Library library, SearchBookStrategy searchBookStrategy, int MIN_DUE_DAYS) {
         this.library = library;
         this.searchBookStrategy = searchBookStrategy;
         this.MIN_DUE_DAYS = MIN_DUE_DAYS;

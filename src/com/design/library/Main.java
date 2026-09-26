@@ -22,7 +22,7 @@ public class Main {
 
         SearchBookStrategy searchBookStrategy = new SearchBookByTitle();
 
-        LibrayService librayService = new LibrayService(library, searchBookStrategy, 15);
+        LibraryService librayService = new LibraryService(library, searchBookStrategy, 15);
 
         BookCopy bookCopy = librayService.searchBook("3 Idiots");
 
